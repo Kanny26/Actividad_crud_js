@@ -71,3 +71,86 @@ form select {
 .error {
   border: solid 1px red;
 }
+
+/* Estilos para las cards de usuarios */
+#usuario {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e7e6e6;
+    border-radius: 12px;
+    padding: 18px;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-row {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.card-label {
+    font-weight: bold;
+    color: #444444;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.card-value {
+    color: #666666;
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.btn-eliminar {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    align-self: flex-start;
+}
+
+.btn-eliminar:hover {
+    background-color: #c82333;
+}
+
+.btn-eliminar i {
+    margin-right: 5px;
+}
+.btn-editar {
+    background-color: #ffc107;
+    color: #000000;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    align-self: flex-start;
+}
+
+.btn-editar:hover {
+    background-color: #e0a800;
+}
